@@ -1,0 +1,87 @@
+$mobile: 601px;
+$tablet: 993px;
+$laptop: 1201px;
+$desktop: 1361px;
+$largedesktop: 1601px;
+
+/*
+@media only screen and (min-width: $mobile){
+    .row .col.lm2point4 {
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}*/
+/*
+@media only screen and (min-width: $tablet){
+    .row .col.lm2point4 {
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}*/
+
+@media only screen and (min-width: $laptop){
+    .row .col.lm2point4 {
+        width: 20%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}
+/*
+@media only screen and (min-width: $desktop){
+    .row .col.xl2 {
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+
+}*/
+
+@media only screen and (min-width: $largedesktop){
+    .row .col.xxl1 {
+        width: 10%;
+        min-width: 230px;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .tabs {
+        display: block;
+
+        .tab {
+            -webkit-box-flex: unset;
+            -webkit-flex-grow: unset;
+            -ms-flex-positive: 1;
+            flex-grow: unset;
+        }
+    }
+
+    .media-filters{
+        .action-bar{
+            padding: 7px 10px 0 0;
+        }
+        .select-all{
+            margin: 7px 0 0 0;
+            }
+        .grid-options {
+            padding: 10px 0 6px 0;
+
+            a {
+                margin: 0 0 0 5px;
+                }
+            }
+        }
+        .media-filters .quick-views {
+            margin-left: 0;
+
+            i{
+                width: 14px;
+            }
+        }
+}
